@@ -23,3 +23,4 @@ items.each_with_index do |item, index|
 end
 
 #Going to deploy with appwrite for testing
+#Created appwrite function. need to deploy it
