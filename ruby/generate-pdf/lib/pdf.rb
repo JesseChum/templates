@@ -1,4 +1,5 @@
 require 'prawn'
+require 'appwrite'
 import { Buffer } from 'node:buffer';
 
 def create_pdf(id:, date:, name:, items:, total:)
@@ -22,5 +23,3 @@ items.each_with_index do |item, index|
   end
 end
 
-#Going to deploy with appwrite for testing
-#Created appwrite function. need to deploy it
